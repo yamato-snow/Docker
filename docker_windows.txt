@@ -1,0 +1,28 @@
+powershell でDokerfileが置いてあるディレクトリに移動
+cd 〇〇
+
+Docker コンテナを作成、実行する
+docker compse up
+
+Web ブラウザで下記アドレスにアクセスする
+http://localhost:8888/
+
+Jupyter で Python を実行
+run main.py
+
+Docker コンテナの停止・削除
+Docker コンテナの一覧を表示する
+docker ps
+
+Docker コンテナを停止する
+docker stop "ここにIDを入力"
+
+Docker コンテナを削除する
+docker rm 7b5
+
+Docker イメージの削除
+Docker イメージの一覧を表示する
+docker images
+
+Docker イメージを削除する
+docker rmi 3c9

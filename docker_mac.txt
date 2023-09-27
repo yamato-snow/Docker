@@ -1,0 +1,11 @@
+Docker コンテナを作成、実行する
+docker compose up -d
+
+Docker コンテナの実行状況を確認する
+docker ps
+
+下記コマンドで Docker コンテナの Python のバージョンを確認できる
+docker exec -it 7b5 python --version
+
+Web ブラウザで下記アドレスにアクセスする
+http://localhost:8888/
